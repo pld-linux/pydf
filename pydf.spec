@@ -6,6 +6,7 @@ Release:	2
 License:	Public Domain
 Group:		Applications/System
 Source0:	http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/%{name}_%{version}.tar.gz
+# Source0-md5:	bcb11691df8d7621c3071f96342863fe
 URL:		http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/
 Requires:	python >= 1.5.2
 Requires:	python-modules
