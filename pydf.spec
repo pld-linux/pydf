@@ -6,7 +6,7 @@ Release:	1
 Group:		Utilities/System
 Group(pl):	Narzêdzia/System
 Copyright:	Public Domain
-Source:		http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/%{name}_%{version}.tar.gz
+Source0:	http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/%{name}_%{version}.tar.gz
 URL:		http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/
 Requires:	python >= 1.5.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -14,8 +14,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_sysconfdir	/etc
 
 %description
-pydf displays the amount of used and available space on your filesystems,
-just like df, but in colours. The output format is completely customizable.
+pydf displays the amount of used and available space on your
+filesystems, just like df, but in colours. The output format is
+completely customizable.
 
 %description -l pl
 pydf wy¶wietla ilo¶æ wykorzystanego i dostêpnego miejsca na systemach
