@@ -1,5 +1,5 @@
-Summary:	Fully colourised df clone written in python
-Summary(pl):	Kolorowy klon df napisany w pythonie
+Summary:	Fully colourised df clone written in Python
+Summary(pl):	Kolorowy klon df napisany w Pythonie
 Name:		pydf
 Version:	0.9.6
 Release:	3
