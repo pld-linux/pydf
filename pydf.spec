@@ -12,8 +12,6 @@ Requires:	python >= 1.5.2
 Requires:	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_sysconfdir	/etc
-
 %description
 pydf displays the amount of used and available space on your
 filesystems, just like df, but in colours. The output format is
