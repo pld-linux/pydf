@@ -5,10 +5,6 @@ Version:	0.9.6
 Release:	1
 License:	Public Domain
 Group:		Applications/System
-Group(de):	Applikationen/System
-Group(es):	Aplicaciones/Sistema
-Group(pl):	Aplikacje/System
-Group(pt_BR):	Aplicações/Sistema
 Source0:	http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/%{name}_%{version}.tar.gz
 URL:		http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/
 Requires:	python >= 1.5.2
