@@ -29,9 +29,9 @@ konfigurowalny.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_sysconfdir},%{_mandir}/man1}
 
-install pydf   $RPM_BUILD_ROOT%{_bindir}
-install pydfrc $RPM_BUILD_ROOT%{_sysconfdir}
-install pydf.1 $RPM_BUILD_ROOT%{_mandir}/man1
+install pydf	$RPM_BUILD_ROOT%{_bindir}
+install pydfrc	$RPM_BUILD_ROOT%{_sysconfdir}
+install pydf.1	$RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
