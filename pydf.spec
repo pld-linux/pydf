@@ -1,7 +1,7 @@
 Summary:	Fully colourised df clone written in python
 Summary(pl):	Kolorowy klon df napisany w pythonie
 Name:		pydf
-Version:	0.6
+Version:	0.9.1
 Release:	1
 Group:		Utilities/System
 Group(pl):	Narzêdzia/System
@@ -9,12 +9,11 @@ Copyright:	Public Domain
 Source:		http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/%{name}_%{version}.tar.gz
 URL:		http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/
 Requires:	python >= 1.5.2
-BuildRoot:   	/tmp/%{name}-%{version}-root
+BuildRoot:	/tmp/%{name}-%{version}-root
 
 %define		_sysconfdir	/etc
 
 %description
-
 pydf displays the amount of used and available space on your filesystems,
 just like df, but in colours. The output format is completely customizable.
 
