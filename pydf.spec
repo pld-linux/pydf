@@ -2,7 +2,7 @@ Summary:	Fully colourised df clone written in python
 Summary(pl):	Kolorowy klon df napisany w pythonie
 Name:		pydf
 Version:	0.9.6
-Release:	2
+Release:	3
 License:	Public Domain
 Group:		Applications/System
 Source0:	http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/%{name}_%{version}.tar.gz
