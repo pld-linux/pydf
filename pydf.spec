@@ -9,7 +9,7 @@ Copyright:	Public Domain
 Source:		http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/%{name}_%{version}.tar.gz
 URL:		http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/
 Requires:	python >= 1.5.2
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sysconfdir	/etc
 
