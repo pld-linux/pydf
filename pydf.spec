@@ -3,9 +3,10 @@ Summary(pl):	Kolorowy klon df napisany w pythonie
 Name:		pydf
 Version:	0.9.1
 Release:	1
-Group:		Utilities/System
-Group(pl):	Narzêdzia/System
-Copyright:	Public Domain
+License:	Public Domain
+Group:		Applications/System
+Group(de):	Applikationen/System
+Group(pl):	Aplikacje/System
 Source0:	http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/%{name}_%{version}.tar.gz
 URL:		http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/
 Requires:	python >= 1.5.2
@@ -25,7 +26,6 @@ konfigurowalny.
 
 %prep
 %setup -q
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -35,8 +35,7 @@ install pydf   $RPM_BUILD_ROOT%{_bindir}
 install pydfrc $RPM_BUILD_ROOT%{_sysconfdir}
 install pydf.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man1/pydf.1 \
-	README
+gzip -9nf README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -47,4 +46,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/pydf
 %config %{_sysconfdir}/pydfrc
 
-%{_mandir}/man1/pydf.1.gz
+%{_mandir}/man1/pydf.1*
