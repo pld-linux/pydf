@@ -1,7 +1,7 @@
 Summary:	Fully colourised df clone written in python
 Summary(pl):	Kolorowy klon df napisany w pythonie
 Name:		pydf
-Version:	0.5
+Version:	0.6
 Release:	1
 Group:		Utilities/System
 Group(pl):	Narzêdzia/System
@@ -14,14 +14,14 @@ BuildRoot:   	/tmp/%{name}-%{version}-root
 %define		_sysconfdir	/etc
 
 %description
-pydf displays the amount of used and available space on your
-filesystems, just like df, but in colours. The output format is
-completely customizable.
+
+pydf displays the amount of used and available space on your filesystems,
+just like df, but in colours. The output format is completely customizable.
 
 %description -l pl
-pydf wy¶wietla ilo¶æ wykorzystanego i dostêpnego miejsca na
-systemach plików, tak jak df, ale w kolorach. Format wyj¶ciowy
-jest w pe³ni konfigurowalny.
+pydf wy¶wietla ilo¶æ wykorzystanego i dostêpnego miejsca na systemach
+plików, tak jak df, ale w kolorach. Format wyj¶ciowy jest w pe³ni
+konfigurowalny.
 
 %prep
 %setup -q
