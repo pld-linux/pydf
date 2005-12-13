@@ -9,8 +9,8 @@ Source0:	http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/%{name}_%{version}.tar.gz
 # Source0-md5:	81af7f7f86bd8e18b192953dc19b4a38
 URL:		http://melkor.dnp.fmph.uniba.sk/~garabik/pydf/
 BuildRequires:	rpm-pythonprov
-Requires:	python >= 1.5.2
 Requires:	python-modules
+Requires:	python >= 1.5.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
