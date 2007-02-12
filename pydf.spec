@@ -1,5 +1,5 @@
 Summary:	Fully colourised df clone written in Python
-Summary(pl):	Kolorowy klon df napisany w Pythonie
+Summary(pl.UTF-8):   Kolorowy klon df napisany w Pythonie
 Name:		pydf
 Version:	0.9.8.5
 Release:	1
@@ -18,9 +18,9 @@ pydf displays the amount of used and available space on your
 filesystems, just like df, but in colours. The output format is
 completely customizable.
 
-%description -l pl
-pydf wy¶wietla ilo¶æ wykorzystanego i dostêpnego miejsca na systemach
-plików, tak jak df, ale w kolorach. Format wyj¶ciowy jest w pe³ni
+%description -l pl.UTF-8
+pydf wyÅ›wietla iloÅ›Ä‡ wykorzystanego i dostÄ™pnego miejsca na systemach
+plikÃ³w, tak jak df, ale w kolorach. Format wyjÅ›ciowy jest w peÅ‚ni
 konfigurowalny.
 
 %prep
